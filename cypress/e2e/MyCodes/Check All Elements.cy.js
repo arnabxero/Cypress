@@ -8,13 +8,7 @@ describe("Check All Elements Visible or Not", () => {
         }
 
         return true;
-        // try {
-
-        //   cy.get(`[class*=${word}]`).should('be.visible');;
-        //   return true;
-        // } catch (error) {
-        //   return false;
-        // }
+ 
       }
   
       function initiateCypressParams(screenHeight, screenWidth) {
