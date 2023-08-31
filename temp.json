@@ -1,0 +1,274 @@
+{
+    "data": [
+        {
+            "_id": "64f04e9ac051cd0020b30216",
+            "name": "Recipes Book 2",
+            "slug": "Recipes-Book-2",
+            "topic": "64f04e84d38a6d0020224cba",
+            "shouldIncludeInSitemap": true,
+            "shouldIncludeInRss": true,
+            "additionalMeta": "{}",
+            "meta": {
+                "opengraph": {},
+                "twitter": {
+                    "card": "summary_large_image"
+                },
+                "keywords": []
+            },
+            "createdAt": "2023-08-31T08:26:02.297Z",
+            "updatedAt": "2023-08-31T08:26:02.297Z",
+            "hasDraft": false,
+            "status": "PUBLISHED",
+            "visibilityType": "PUBLIC",
+            "Multi_Recipes": [
+                {
+                    "_id": "64f04e88c051cd0020b3010a",
+                    "name": "Beets conserve coffee Indian salami herbs aroma wine cupcake whipped cream",
+                    "slug": "beets-conserve-coffee-indian-salami-herbs-aroma-wine-cupcake-whipped-cream",
+                    "topic": "64f04e85c051cd0020b3009c",
+                    "shouldIncludeInSitemap": true,
+                    "shouldIncludeInRss": true,
+                    "additionalMeta": "{}",
+                    "meta": {
+                        "opengraph": {},
+                        "twitter": {
+                            "card": "summary_large_image"
+                        },
+                        "keywords": []
+                    },
+                    "createdAt": "2023-08-31T08:25:44.780Z",
+                    "updatedAt": "2023-08-31T10:54:20.747Z",
+                    "hasDraft": false,
+                    "status": "PUBLISHED",
+                    "scheduledDateTime": null,
+                    "visibilityType": "PUBLIC",
+                    "_topicSlug": "Recipe",
+                    "content": "{\"time\":1653901800669,\"blocks\":[{\"id\":\"0VoKsOsTKX\",\"type\":\"paragraph\",\"data\":{\"text\":\"Beets are one of the most versatile vegetables in the kitchen and can be used to add color, flavor, and nutrients to a variety of dishes. They are especially well-suited for preserving foods because of their high sugar content and slightly acidic flavor. In this recipe, beets are combined with coffee, Indian salami, herbs, and wine to create a unique preserve that can be enjoyed on its own or used as an ingredient in other recipes. cupcake whipped creamBeets are one of the most versatile vegetables in the kitchen and can be used to add color, flavor, and nutrients to a variety of dishes. They are especially well-suited for preserving foods because of their high sugar content and slightly acidic flavor. In this recipe, beets are combined with coffee, Indian salami, herbs, and wine to create a unique preserve that can be enjoyed on its own or used as an ingredient in other recipes. cupcake whipped cream\"}},{\"id\":\"h5giy9gCkN\",\"type\":\"image\",\"data\":{\"file\":{\"url\":\"https://cdn.cmsfly.com/628365ba27c9d000bcb26c90/vd-photography-ggjqdvezww8-unsplash-ZywyVz.jpg\",\"key\":\"628365ba27c9d000bcb26c90/vd-photography-ggjqdvezww8-unsplash-ZywyVz.jpg\"},\"caption\":\"Salad\",\"withBorder\":false,\"stretched\":false,\"withBackground\":false}}],\"version\":\"2.22.2\"}",
+                    "htmlContent": null,
+                    "ingredients": "{\"time\":1652875887803,\"blocks\":[{\"id\":\"rre4c_4Z5F\",\"type\":\"header\",\"data\":{\"text\":\"INGREDIENTS\",\"level\":3}},{\"id\":\"Yv03xCaza-\",\"type\":\"list\",\"data\":{\"style\":\"unordered\",\"items\":[\"3&nbsp;large eggs (50 g each w/o shell)\",\"▢2&nbsp;Tbsp&nbsp;neutral-flavored oil (vegetable, rice bran, canola, etc.)\",\"▢1½&nbsp;sheets&nbsp;nori (dried laver seaweed)&nbsp;(optional; for omelette with nori in it)\"]}},{\"id\":\"t262f9p2Vc\",\"type\":\"header\",\"data\":{\"text\":\"Seasonings\",\"level\":4}},{\"id\":\"Nu3sPx5awg\",\"type\":\"list\",\"data\":{\"style\":\"unordered\",\"items\":[\"▢3&nbsp;Tbsp&nbsp;dashi (Japanese soup stock; click to learn more)&nbsp;(use&nbsp;Kombu Dashi&nbsp;for vegetarian)\",\"▢2&nbsp;tsp&nbsp;sugar\",\"▢1&nbsp;tsp&nbsp;soy sauce&nbsp;(use GF soy sauce for gluten-free)\",\"▢1&nbsp;tsp&nbsp;mirin\",\"▢2&nbsp;pinch&nbsp;kosher salt (Diamond Crystal; use half for table salt)\"]}},{\"id\":\"v0DXOWuxf-\",\"type\":\"header\",\"data\":{\"text\":\"Garnish\",\"level\":4}},{\"id\":\"ELL0tQVP3_\",\"type\":\"list\",\"data\":{\"style\":\"unordered\",\"items\":[\"▢3&nbsp;oz&nbsp;daikon radish&nbsp;(1 inch, 2.5 cm; use the green top part as it is sweeter than the white part)\",\"▢soy sauce&nbsp;(use GF soy sauce for gluten-free)\"]}}],\"version\":\"2.22.2\"}",
+                    "mainimage": "628365ba27c9d000bcb26c90/vd-photography-ggjqdvezww8-unsplash-9OhO9J.jpg",
+                    "thumbnailimage": "628365ba27c9d000bcb26c90/vd-photography-ggjqdvezww8-unsplash-W9dBax.jpg",
+                    "cuisine": "Indian"
+                },
+                {
+                    "_id": "64f04e88c051cd0020b300fc",
+                    "name": "Edamame Shichimi",
+                    "slug": "edamame-shichimi",
+                    "topic": "64f04e85c051cd0020b3009c",
+                    "shouldIncludeInSitemap": true,
+                    "shouldIncludeInRss": true,
+                    "additionalMeta": "{}",
+                    "meta": {
+                        "opengraph": {},
+                        "twitter": {
+                            "card": "summary_large_image"
+                        },
+                        "keywords": []
+                    },
+                    "createdAt": "2023-08-31T08:25:44.780Z",
+                    "updatedAt": "2023-08-31T08:25:44.780Z",
+                    "hasDraft": false,
+                    "status": "DRAFT",
+                    "visibilityType": "PUBLIC",
+                    "_topicSlug": "Recipe",
+                    "content": "{\"time\":1653903459146,\"blocks\":[{\"id\":\"R-uX3RuBZd\",\"type\":\"paragraph\",\"data\":{\"text\":\"Do you like spicy food? If so, you will love this Edamame Shichimi recipe! It is a delicious and easy way to add some heat to your meals. Plus, it is packed with protein and nutrients, making it a healthy choice for snacking or eating as part of a meal. Give this recipe a try today!\"}},{\"id\":\"htTe3nxMzT\",\"type\":\"paragraph\",\"data\":{\"text\":\"Looking for a vegan and gluten-free appetizer that is sure to impress? Look no further than this Edamame Shichimi recipe! It's easy to make and full of flavor. Plus, it's perfect for any occasion!\"}},{\"id\":\"V5U0NUeJh2\",\"type\":\"image\",\"data\":{\"file\":{\"url\":\"https://cdn.cmsfly.com/628365ba27c9d000bcb26c90/curtis-thornton-xxpta8rjjwy-unsplash-SQhYIK.jpg\",\"key\":\"628365ba27c9d000bcb26c90/curtis-thornton-xxpta8rjjwy-unsplash-SQhYIK.jpg\"},\"caption\":\"Edamame Dish\",\"withBorder\":false,\"stretched\":false,\"withBackground\":false}},{\"id\":\"efEXFoNboW\",\"type\":\"paragraph\",\"data\":{\"text\":\"In viverra sed sapien ac tincidunt. Maecenas aliquam sodales nunc id placerat. Nam sed mollis lacus, in tristique felis. Aenean fringilla velit elit, ullamcorper aliquam erat mattis consectetur. Suspendisse mollis sagittis lorem, varius laoreet mauris condimentum finibus. Cras quis maximus tellus. Praesent mi eros, facilisis non purus id, dapibus rutrum nulla. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec sed libero mi. Nunc maximus risus at leo volutpat pretium. Sed scelerisque libero ex, id vestibulum nibh aliquet et. Phasellus porttitor turpis quis lacus porttitor tincidunt eu eu nisl. Donec feugiat ex eu ipsum mattis, ac mattis eros elementum. Suspendisse fringilla odio massa, eu auctor est molestie id. Phasellus consequat facilisis venenatis.\"}},{\"id\":\"6RWkipAfkM\",\"type\":\"paragraph\",\"data\":{\"text\":\"Nulla accumsan posuere sollicitudin. Cras consectetur accumsan felis, tristique luctus tortor pharetra eleifend. Nullam sit amet ornare ligula, non tincidunt urna. Quisque vehicula aliquam massa id porttitor. Nulla vitae sollicitudin orci. Etiam ut ex justo. Quisque varius laoreet arcu vitae pretium.\"}},{\"id\":\"1Kgxq12Qe6\",\"type\":\"paragraph\",\"data\":{\"text\":\"Sed laoreet magna at arcu suscipit sagittis. Sed lacus ex, accumsan vel enim sed, egestas luctus lorem. Vestibulum eu augue sodales velit venenatis dignissim. Suspendisse eu mauris et libero mollis venenatis eget vitae dolor. Donec imperdiet aliquet orci eu egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed a tempus urna. Integer sed justo sagittis, gravida ex sit amet, dignissim velit. Suspendisse malesuada neque ac convallis sodales. Ut congue, tortor eget faucibus tempus, erat neque rhoncus justo, in viverra dui sem nec nisl. Suspendisse ultricies fermentum ultricies. Nulla malesuada felis enim, fringilla iaculis ante posuere in. Phasellus hendrerit condimentum purus, nec tristique leo rutrum quis. Suspendisse at est quis augue blandit maximus molestie id purus.\"}}],\"version\":\"2.22.2\"}",
+                    "htmlContent": null,
+                    "ingredients": "{\"time\":1653903519834,\"blocks\":[{\"id\":\"2gLz96ciPm\",\"type\":\"list\",\"data\":{\"style\":\"ordered\",\"items\":[\"Janko\",\"Edamame\",\"Sikimi Sauce\",\"Salt\",\"Oil\"]}}],\"version\":\"2.22.2\"}",
+                    "mainimage": "628365ba27c9d000bcb26c90/curtis-thornton-xxpta8rjjwy-unsplash-_rQ6oh.jpg",
+                    "thumbnailimage": "628365ba27c9d000bcb26c90/curtis-thornton-xxpta8rjjwy-unsplash-F4Y4tX.jpg",
+                    "cuisine": "Japanese"
+                },
+                {
+                    "_id": "64f04e88c051cd0020b300ee",
+                    "name": "Arabic Kafta Kebab",
+                    "slug": "arabic-kafta-kebab",
+                    "topic": "64f04e85c051cd0020b3009c",
+                    "shouldIncludeInSitemap": true,
+                    "shouldIncludeInRss": true,
+                    "additionalMeta": "{}",
+                    "meta": {
+                        "opengraph": {},
+                        "twitter": {
+                            "card": "summary_large_image"
+                        },
+                        "keywords": []
+                    },
+                    "createdAt": "2023-08-31T08:25:44.779Z",
+                    "updatedAt": "2023-08-31T08:25:44.779Z",
+                    "hasDraft": false,
+                    "status": "DRAFT",
+                    "visibilityType": "PUBLIC",
+                    "_topicSlug": "Recipe",
+                    "content": "{\"time\":1653901268867,\"blocks\":[{\"id\":\"8Ew4tnk-lD\",\"type\":\"image\",\"data\":{\"file\":{\"url\":\"https://cdn.cmsfly.com/628365ba27c9d000bcb26c90/suad-kamardeen-3lnscaqm23u-unsplash-nbMjPX.jpg\",\"key\":\"628365ba27c9d000bcb26c90/suad-kamardeen-3lnscaqm23u-unsplash-nbMjPX.jpg\"},\"caption\":\"Kafta Kebab\",\"withBorder\":false,\"stretched\":false,\"withBackground\":false}},{\"id\":\"W4fUHlLfno\",\"type\":\"paragraph\",\"data\":{\"text\":\"Looking for an easy and delicious way to cook up some kebabs? Try making Arabic kafta kebab! This dish is simple to make and is packed full of flavor. Plus, it's perfect for a summer BBQ! Ready to get started? Let's go!\"}},{\"id\":\"PK7sdHBUAE\",\"type\":\"paragraph\",\"data\":{\"text\":\"Suspendisse imperdiet sit amet augue et elementum. Vivamus tincidunt quam enim, faucibus dictum velit varius vel. Nam interdum ultricies varius. Duis at quam non justo gravida luctus. Pellentesque vel magna quis magna egestas mattis quis vel neque. Duis vel quam vel mi ornare dignissim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.\"}},{\"id\":\"s0GuQF_JVM\",\"type\":\"paragraph\",\"data\":{\"text\":\"Etiam risus ex, commodo et justo sit amet, posuere mollis purus. Fusce leo ligula, ultricies in elit vel, aliquam mollis sem. Sed pulvinar efficitur dolor ut dapibus. Maecenas in elit magna. In a porttitor ligula. Curabitur convallis tortor eu purus imperdiet, a maximus nisi pellentesque. Mauris porta, urna sed auctor luctus, elit neque aliquet mi, eget vestibulum est augue sit amet lacus. Donec blandit lectus massa, eget sodales est facilisis ut. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec vitae placerat dui. Duis finibus eros id diam scelerisque vulputate. Aliquam in enim mauris. Mauris mollis faucibus magna a commodo. Proin tempor euismod metus sed placerat.\"}},{\"id\":\"RZOqkT_Xdx\",\"type\":\"paragraph\",\"data\":{\"text\":\"Vivamus et ullamcorper magna. Fusce luctus, tellus vitae accumsan finibus, nibh felis faucibus arcu, eget feugiat diam lectus vel neque. Mauris pulvinar, elit nec cursus tincidunt, dui lacus rhoncus lectus, quis pretium metus massa vel nisi. Etiam nulla neque, hendrerit nec mattis sed, sagittis ut sapien. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In sagittis gravida pharetra. Quisque sollicitudin risus sem, ut tempus nunc volutpat ac. Curabitur porta arcu tincidunt libero bibendum, ac ultricies massa accumsan. Suspendisse sit amet orci lacinia, posuere turpis sed, laoreet tortor. Curabitur vel euismod ex, sed ullamcorper neque. Suspendisse ornare placerat aliquet. Curabitur nec sagittis tellus, a eleifend diam. Fusce sed facilisis nisl. Aliquam diam urna, luctus id tristique in, viverra eget justo. Sed aliquet, eros in maximus dignissim, magna nunc auctor lectus, in elementum dui nibh laoreet orci. Ut eu nisi tristique, malesuada nisl non, blandit mi.\"}}],\"version\":\"2.22.2\"}",
+                    "htmlContent": null,
+                    "ingredients": "{\"time\":1652873731173,\"blocks\":[{\"id\":\"f5KXRegr-4\",\"type\":\"list\",\"data\":{\"style\":\"unordered\",\"items\":[\"2lbs/1kg approximately - lean ground lamb or beef (or a mix of them)\",\"1 - small onion, finely chopped\",\"1/4 cup - finely chopped parsley\",\"1/4 cup - finely chopped mint leaves (optional)\",\"3 cloves - garlic, peeled and crushed\",\"1 - green chilli, finely chopped\",\"1 - beaten egg\",\"1 tbsp - milk\",\"1 to 2 tbsp - bread crumbs\",\"1 tsp - white pepper\",\"1 tsp - cumin powder\",\"1/2 tsp - coriander powder\",\"Kosher salt to taste\",\"Lemon wedges, parsley leaves, green olives, hummus, pickles and khubz or pita bread on the side\",\"2 tbsp - olive oil\"]}}],\"version\":\"2.22.2\"}",
+                    "mainimage": "628365ba27c9d000bcb26c90/suad-kamardeen-3lnscaqm23u-unsplash-HyoW0_.jpg",
+                    "thumbnailimage": "628365ba27c9d000bcb26c90/suad-kamardeen-3lnscaqm23u-unsplash-X0WA_T.jpg",
+                    "cuisine": "Arabic"
+                }
+            ]
+        },
+        {
+            "_id": "64f04e95d38a6d0020224d2d",
+            "name": "Recipes Book 1",
+            "slug": "Recipes-Book-1",
+            "topic": "64f04e84d38a6d0020224cba",
+            "shouldIncludeInSitemap": true,
+            "shouldIncludeInRss": true,
+            "additionalMeta": "{}",
+            "meta": {
+                "opengraph": {},
+                "twitter": {
+                    "card": "summary_large_image"
+                },
+                "keywords": []
+            },
+            "createdAt": "2023-08-31T08:25:57.190Z",
+            "updatedAt": "2023-08-31T08:25:57.190Z",
+            "hasDraft": false,
+            "status": "PUBLISHED",
+            "visibilityType": "PUBLIC",
+            "Multi_Recipes": [
+                {
+                    "_id": "64f04e88c051cd0020b30134",
+                    "name": "CAPRESE SKEWERS",
+                    "slug": "caprese-skewers",
+                    "topic": "64f04e85c051cd0020b3009c",
+                    "shouldIncludeInSitemap": true,
+                    "shouldIncludeInRss": true,
+                    "additionalMeta": "{}",
+                    "meta": {
+                        "opengraph": {},
+                        "twitter": {
+                            "card": "summary_large_image"
+                        },
+                        "keywords": []
+                    },
+                    "createdAt": "2023-08-31T08:25:44.781Z",
+                    "updatedAt": "2023-08-31T08:25:44.781Z",
+                    "hasDraft": false,
+                    "status": "DRAFT",
+                    "visibilityType": "PUBLIC",
+                    "_topicSlug": "Recipe",
+                    "content": "{\"time\":1653902320769,\"blocks\":[{\"id\":\"AHXvxHAsPK\",\"type\":\"image\",\"data\":{\"file\":{\"url\":\"https://cdn.cmsfly.com/628365ba27c9d000bcb26c90/benjamin-brunner-ehfmfjvkmn4-unsplash-wVN1xw.jpg\",\"key\":\"628365ba27c9d000bcb26c90/benjamin-brunner-ehfmfjvkmn4-unsplash-wVN1xw.jpg\"},\"caption\":\"CAPRESE SKEWERS\",\"withBorder\":false,\"stretched\":false,\"withBackground\":false}},{\"id\":\"cLDyoKByy1\",\"type\":\"paragraph\",\"data\":{\"text\":\"Looking for a fresh and easy appetizer? These Caprese skewers are the perfect solution! Featuring juicy tomatoes, fresh mozzarella, and basil, they're lightweight and take just minutes to prepare. Plus, they're perfect for any occasion - from backyard barbecues to formal dinner parties. So give them a try today!Looking for a fresh and easy appetizer? These Caprese skewers are the perfect solution! Featuring juicy tomatoes, fresh mozzarella, and basil, they're lightweight and take just minutes to prepare. Plus, they're perfect for any occasion - from backyard barbecues to formal dinner parties. So give them a try today!\"}},{\"id\":\"te5ClXUFo8\",\"type\":\"paragraph\",\"data\":{\"text\":\"Sed nisl nisl, ullamcorper a neque ut, malesuada fringilla velit. Nam diam mauris, iaculis sit amet ultricies nec, eleifend a orci. Mauris sed molestie purus. Sed vulputate finibus sollicitudin. Suspendisse auctor dolor erat. Pellentesque lorem nibh, egestas lobortis sapien ut, egestas tempus erat. Fusce ac dictum turpis, vel lobortis ipsum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin vel cursus elit. Vivamus vitae viverra arcu, in dignissim arcu.\"}},{\"id\":\"OXMUufFzUS\",\"type\":\"paragraph\",\"data\":{\"text\":\"Fusce vitae volutpat enim, sed dignissim leo. Vestibulum sagittis et massa ac dignissim. Aliquam erat volutpat. Nulla ut pretium diam. Aliquam gravida dui ac augue tempus, sed posuere neque imperdiet. Proin non tincidunt mi. Ut interdum sem ut feugiat bibendum. Etiam ac velit vestibulum, vehicula nunc a, maximus ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In hac habitasse platea dictumst. Etiam tincidunt ipsum id sollicitudin finibus. Morbi ornare non magna a elementum. Nam efficitur malesuada efficitur.\"}},{\"id\":\"QNcz25WBxg\",\"type\":\"paragraph\",\"data\":{\"text\":\"Suspendisse laoreet sem eu neque rhoncus, ut vulputate felis ultrices. Aenean eleifend commodo ante. Pellentesque accumsan nibh in enim lacinia, vitae tincidunt ante mollis. Suspendisse sit amet nisi ut tellus malesuada dapibus vel et dolor. Proin lacinia vehicula bibendum. Suspendisse efficitur lobortis est, quis ornare nulla sodales id. Maecenas quis nulla vel orci laoreet mattis a suscipit est.\"}}],\"version\":\"2.22.2\"}",
+                    "htmlContent": null,
+                    "ingredients": "{\"time\":1652864195427,\"blocks\":[{\"id\":\"H-Xhdg0Xzv\",\"type\":\"list\",\"data\":{\"style\":\"unordered\",\"items\":[\"24&nbsp;red cherry tomatoes\",\"12&nbsp;yellow cherry tomatoes\",\"24&nbsp;bite-sized fresh mozzarella balls\",\"36&nbsp;small basil leaves\",\"1 1/2&nbsp;tablespoons&nbsp;olive oil\",\"1&nbsp;teaspoon&nbsp;Italian seasoning\",\"1 1 /2&nbsp;tablespoons&nbsp;balsamic glaze\",\"salt and pepper to taste\"]}}],\"version\":\"2.22.2\"}",
+                    "mainimage": "628365ba27c9d000bcb26c90/benjamin-brunner-ehfmfjvkmn4-unsplash-SqoJy-.jpg",
+                    "thumbnailimage": "628365ba27c9d000bcb26c90/benjamin-brunner-ehfmfjvkmn4-unsplash-FiCYJa.jpg",
+                    "cuisine": "Italian"
+                }
+            ]
+        },
+        {
+            "_id": "64f04e90d38a6d0020224d0b",
+            "name": "Recipes Book 0",
+            "slug": "Recipes-Book-0",
+            "topic": "64f04e84d38a6d0020224cba",
+            "shouldIncludeInSitemap": true,
+            "shouldIncludeInRss": true,
+            "additionalMeta": "{}",
+            "meta": {
+                "opengraph": {},
+                "twitter": {
+                    "card": "summary_large_image"
+                },
+                "keywords": []
+            },
+            "createdAt": "2023-08-31T08:25:52.597Z",
+            "updatedAt": "2023-08-31T08:25:52.597Z",
+            "hasDraft": false,
+            "status": "PUBLISHED",
+            "visibilityType": "PUBLIC",
+            "Multi_Recipes": [
+                {
+                    "_id": "64f04e88c051cd0020b30134",
+                    "name": "CAPRESE SKEWERS",
+                    "slug": "caprese-skewers",
+                    "topic": "64f04e85c051cd0020b3009c",
+                    "shouldIncludeInSitemap": true,
+                    "shouldIncludeInRss": true,
+                    "additionalMeta": "{}",
+                    "meta": {
+                        "opengraph": {},
+                        "twitter": {
+                            "card": "summary_large_image"
+                        },
+                        "keywords": []
+                    },
+                    "createdAt": "2023-08-31T08:25:44.781Z",
+                    "updatedAt": "2023-08-31T08:25:44.781Z",
+                    "hasDraft": false,
+                    "status": "DRAFT",
+                    "visibilityType": "PUBLIC",
+                    "_topicSlug": "Recipe",
+                    "content": "{\"time\":1653902320769,\"blocks\":[{\"id\":\"AHXvxHAsPK\",\"type\":\"image\",\"data\":{\"file\":{\"url\":\"https://cdn.cmsfly.com/628365ba27c9d000bcb26c90/benjamin-brunner-ehfmfjvkmn4-unsplash-wVN1xw.jpg\",\"key\":\"628365ba27c9d000bcb26c90/benjamin-brunner-ehfmfjvkmn4-unsplash-wVN1xw.jpg\"},\"caption\":\"CAPRESE SKEWERS\",\"withBorder\":false,\"stretched\":false,\"withBackground\":false}},{\"id\":\"cLDyoKByy1\",\"type\":\"paragraph\",\"data\":{\"text\":\"Looking for a fresh and easy appetizer? These Caprese skewers are the perfect solution! Featuring juicy tomatoes, fresh mozzarella, and basil, they're lightweight and take just minutes to prepare. Plus, they're perfect for any occasion - from backyard barbecues to formal dinner parties. So give them a try today!Looking for a fresh and easy appetizer? These Caprese skewers are the perfect solution! Featuring juicy tomatoes, fresh mozzarella, and basil, they're lightweight and take just minutes to prepare. Plus, they're perfect for any occasion - from backyard barbecues to formal dinner parties. So give them a try today!\"}},{\"id\":\"te5ClXUFo8\",\"type\":\"paragraph\",\"data\":{\"text\":\"Sed nisl nisl, ullamcorper a neque ut, malesuada fringilla velit. Nam diam mauris, iaculis sit amet ultricies nec, eleifend a orci. Mauris sed molestie purus. Sed vulputate finibus sollicitudin. Suspendisse auctor dolor erat. Pellentesque lorem nibh, egestas lobortis sapien ut, egestas tempus erat. Fusce ac dictum turpis, vel lobortis ipsum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin vel cursus elit. Vivamus vitae viverra arcu, in dignissim arcu.\"}},{\"id\":\"OXMUufFzUS\",\"type\":\"paragraph\",\"data\":{\"text\":\"Fusce vitae volutpat enim, sed dignissim leo. Vestibulum sagittis et massa ac dignissim. Aliquam erat volutpat. Nulla ut pretium diam. Aliquam gravida dui ac augue tempus, sed posuere neque imperdiet. Proin non tincidunt mi. Ut interdum sem ut feugiat bibendum. Etiam ac velit vestibulum, vehicula nunc a, maximus ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In hac habitasse platea dictumst. Etiam tincidunt ipsum id sollicitudin finibus. Morbi ornare non magna a elementum. Nam efficitur malesuada efficitur.\"}},{\"id\":\"QNcz25WBxg\",\"type\":\"paragraph\",\"data\":{\"text\":\"Suspendisse laoreet sem eu neque rhoncus, ut vulputate felis ultrices. Aenean eleifend commodo ante. Pellentesque accumsan nibh in enim lacinia, vitae tincidunt ante mollis. Suspendisse sit amet nisi ut tellus malesuada dapibus vel et dolor. Proin lacinia vehicula bibendum. Suspendisse efficitur lobortis est, quis ornare nulla sodales id. Maecenas quis nulla vel orci laoreet mattis a suscipit est.\"}}],\"version\":\"2.22.2\"}",
+                    "htmlContent": null,
+                    "ingredients": "{\"time\":1652864195427,\"blocks\":[{\"id\":\"H-Xhdg0Xzv\",\"type\":\"list\",\"data\":{\"style\":\"unordered\",\"items\":[\"24&nbsp;red cherry tomatoes\",\"12&nbsp;yellow cherry tomatoes\",\"24&nbsp;bite-sized fresh mozzarella balls\",\"36&nbsp;small basil leaves\",\"1 1/2&nbsp;tablespoons&nbsp;olive oil\",\"1&nbsp;teaspoon&nbsp;Italian seasoning\",\"1 1 /2&nbsp;tablespoons&nbsp;balsamic glaze\",\"salt and pepper to taste\"]}}],\"version\":\"2.22.2\"}",
+                    "mainimage": "628365ba27c9d000bcb26c90/benjamin-brunner-ehfmfjvkmn4-unsplash-SqoJy-.jpg",
+                    "thumbnailimage": "628365ba27c9d000bcb26c90/benjamin-brunner-ehfmfjvkmn4-unsplash-FiCYJa.jpg",
+                    "cuisine": "Italian"
+                }
+            ]
+        }
+    ]
+}
+
+
+
+
+{
+    "data": [
+        {
+            "_id": "64f04e9ac051cd0020b30216",
+            "name": "Recipes Book 2",
+            "slug": "Recipes-Book-2",
+            "topic": "64f04e84d38a6d0020224cba",
+            "shouldIncludeInSitemap": true,
+            "shouldIncludeInRss": true,
+            "additionalMeta": "{}",
+            "meta": {
+                "opengraph": {},
+                "twitter": {
+                    "card": "summary_large_image"
+                },
+                "keywords": []
+            },
+            "createdAt": "2023-08-31T08:26:02.297Z",
+            "updatedAt": "2023-08-31T08:26:02.297Z",
+            "hasDraft": false,
+            "status": "PUBLISHED",
+            "visibilityType": "PUBLIC",
+            "Multi_Recipes": [
+                {
+                    "_id": "64f04e88c051cd0020b3010a",
+                    "name": "Beets conserve coffee Indian salami herbs aroma wine cupcake whipped cream",
+                    "slug": "beets-conserve-coffee-indian-salami-herbs-aroma-wine-cupcake-whipped-cream",
+                    "topic": "64f04e85c051cd0020b3009c",
+                    "shouldIncludeInSitemap": true,
+                    "shouldIncludeInRss": true,
+                    "additionalMeta": "{}",
+                    "meta": {
+                        "opengraph": {},
+                        "twitter": {
+                            "card": "summary_large_image"
+                        },
+                        "keywords": []
+                    },
+                    "createdAt": "2023-08-31T08:25:44.780Z",
+                    "updatedAt": "2023-08-31T10:54:20.747Z",
+                    "hasDraft": false,
+                    "status": "PUBLISHED",
+                    "scheduledDateTime": null,
+                    "visibilityType": "PUBLIC",
+                    "_topicSlug": "Recipe",
+                    "content": "{\"time\":1653901800669,\"blocks\":[{\"id\":\"0VoKsOsTKX\",\"type\":\"paragraph\",\"data\":{\"text\":\"Beets are one of the most versatile vegetables in the kitchen and can be used to add color, flavor, and nutrients to a variety of dishes. They are especially well-suited for preserving foods because of their high sugar content and slightly acidic flavor. In this recipe, beets are combined with coffee, Indian salami, herbs, and wine to create a unique preserve that can be enjoyed on its own or used as an ingredient in other recipes. cupcake whipped creamBeets are one of the most versatile vegetables in the kitchen and can be used to add color, flavor, and nutrients to a variety of dishes. They are especially well-suited for preserving foods because of their high sugar content and slightly acidic flavor. In this recipe, beets are combined with coffee, Indian salami, herbs, and wine to create a unique preserve that can be enjoyed on its own or used as an ingredient in other recipes. cupcake whipped cream\"}},{\"id\":\"h5giy9gCkN\",\"type\":\"image\",\"data\":{\"file\":{\"url\":\"https://cdn.cmsfly.com/628365ba27c9d000bcb26c90/vd-photography-ggjqdvezww8-unsplash-ZywyVz.jpg\",\"key\":\"628365ba27c9d000bcb26c90/vd-photography-ggjqdvezww8-unsplash-ZywyVz.jpg\"},\"caption\":\"Salad\",\"withBorder\":false,\"stretched\":false,\"withBackground\":false}}],\"version\":\"2.22.2\"}",
+                    "htmlContent": null,
+                    "ingredients": "{\"time\":1652875887803,\"blocks\":[{\"id\":\"rre4c_4Z5F\",\"type\":\"header\",\"data\":{\"text\":\"INGREDIENTS\",\"level\":3}},{\"id\":\"Yv03xCaza-\",\"type\":\"list\",\"data\":{\"style\":\"unordered\",\"items\":[\"3&nbsp;large eggs (50 g each w/o shell)\",\"▢2&nbsp;Tbsp&nbsp;neutral-flavored oil (vegetable, rice bran, canola, etc.)\",\"▢1½&nbsp;sheets&nbsp;nori (dried laver seaweed)&nbsp;(optional; for omelette with nori in it)\"]}},{\"id\":\"t262f9p2Vc\",\"type\":\"header\",\"data\":{\"text\":\"Seasonings\",\"level\":4}},{\"id\":\"Nu3sPx5awg\",\"type\":\"list\",\"data\":{\"style\":\"unordered\",\"items\":[\"▢3&nbsp;Tbsp&nbsp;dashi (Japanese soup stock; click to learn more)&nbsp;(use&nbsp;Kombu Dashi&nbsp;for vegetarian)\",\"▢2&nbsp;tsp&nbsp;sugar\",\"▢1&nbsp;tsp&nbsp;soy sauce&nbsp;(use GF soy sauce for gluten-free)\",\"▢1&nbsp;tsp&nbsp;mirin\",\"▢2&nbsp;pinch&nbsp;kosher salt (Diamond Crystal; use half for table salt)\"]}},{\"id\":\"v0DXOWuxf-\",\"type\":\"header\",\"data\":{\"text\":\"Garnish\",\"level\":4}},{\"id\":\"ELL0tQVP3_\",\"type\":\"list\",\"data\":{\"style\":\"unordered\",\"items\":[\"▢3&nbsp;oz&nbsp;daikon radish&nbsp;(1 inch, 2.5 cm; use the green top part as it is sweeter than the white part)\",\"▢soy sauce&nbsp;(use GF soy sauce for gluten-free)\"]}}],\"version\":\"2.22.2\"}",
+                    "mainimage": "628365ba27c9d000bcb26c90/vd-photography-ggjqdvezww8-unsplash-9OhO9J.jpg",
+                    "thumbnailimage": "628365ba27c9d000bcb26c90/vd-photography-ggjqdvezww8-unsplash-W9dBax.jpg",
+                    "cuisine": "Indian"
+                }
+            ]
+        }
+    ]
+}
