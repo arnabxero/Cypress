@@ -1,6 +1,6 @@
 function createOrRestoreSession() {
   const url =
-    "https://cypresstestarnab1.dcms.site/dashboard/auth/login?auto_login=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwbGF0Zm9ybSI6ImRvcmlrIiwic2l0ZUlkIjoiNjE1YjFkM2NhZGQ2ZDI1MTYzNTgyYzI1IiwiZW1haWwiOiJhcm5hYkBkb3Jpay5pbyIsImlhdCI6MTY4MDY4MDQ3MCwiZXhwIjoxNjgwNjgwNzcwfQ.TvhBOBCuBMlY-dks7FHrZNohtjE8thTfkcXYlT940CA";
+    "https://cypresstestarnab2.agency.dorik.dev/dashboard/auth/login?auto_login=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwbGF0Zm9ybSI6ImRvcmlrIiwic2l0ZUlkIjoiNjEyM2VlNTMwOGYxNzg4MmM1ZGQxMTQzIiwiZW1haWwiOiJhcm5hYi5kb3Jpa0BnbWFpbC5jb20iLCJpYXQiOjE2ODQzMDUwMzMsImV4cCI6MTY4NDMwNTMzM30.9ZGXJZasWQKndtrAh_ZouHhCEQ6LHmuyoJAVBDwGO-k";
   const sessionKey = "user";
 
   cy.session(
@@ -23,33 +23,39 @@ function initiateCypressParams(screenHeight, screenWidth) {
 function commonAddButtonClick() {
   let buttonClassName_Production = "fzYRWN";
   let buttonClassName_Monorepo = "dPVNkg";
+  let buttonClassName_Development = "fzYRWN";
 
   cy.get("iframe#dorik-builder-iframe")
+    .then(($iframe) => {
+      const iframeWindow = $iframe.contents()[0].defaultView;
+      iframeWindow.scrollTo(0, iframeWindow.document.body.scrollHeight);
+    })
     .its("0.contentDocument.body")
     .find("section.dorik-section")
     .trigger("mouseover")
-    .find("button." + buttonClassName_Production)
+    .find("button." + buttonClassName_Development)
     .click();
 }
 
 function addElementByText(elementText) {
   if (elementText == "Text") {
-    cy.get('svg.fa-align-left').click();
-     
+    cy.get("svg.fa-align-left").click();
   } else {
     cy.contains("p", elementText).click();
   }
 }
 
 function addOneEmptySection() {
-  cy.visit(
-    "https://cypresstestarnab1.dcms.site/dashboard/design/64240d4c87f9cf00128cf606"
-  );
+  cy.visit("https://cypresstestarnab2.agency.dorik.dev/dashboard/design");
   cy.wait(20000);
 
   cy.get("iframe#dorik-builder-iframe").then(($iframe) => {
     const $body = $iframe.contents().find("body");
-    cy.wrap($body).find('button:contains("+ Add New Section")').click();
+    try {
+      cy.wrap($body).find('button:contains("+ Add New Section")').click();
+    } catch {
+      cy.log("Section already added");
+    }
   });
 
   cy.wait(100);

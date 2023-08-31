@@ -54,7 +54,7 @@ describe("Login", () => {
   
         cy.get("iframe#dorik-builder-iframe")
           .its("0.contentDocument.body")
-          .find('div.sc-fnGiBr[itemtype="column"]')
+          .find('div.sc-idXgbr[itemtype="column"]')
           .trigger("mouseover")
           .then(($div) => {
             const html = $div.html();
