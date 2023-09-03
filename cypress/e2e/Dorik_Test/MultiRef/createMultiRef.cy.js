@@ -1,6 +1,7 @@
 function createOrRestoreSession() {
     const url =
-        "https://multisinglee2e.dcms.site/dashboard/auth/login?auto_login=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwbGF0Zm9ybSI6ImRvcmlrIiwic2l0ZUlkIjoiNjE1YjFkM2NhZGQ2ZDI1MTYzNTgyYzI1IiwiZW1haWwiOiJhcm5hYi5kb3Jpa0BnbWFpbC5jb20iLCJpYXQiOjE2OTM0ODE0MzYsImV4cCI6MTY5MzQ4MTczNn0.STeAw8XjSOFQJO22BHgNNNCO7M6DamHqEiuh7o9gB6k";
+        "http://multisinglee2e.dcms.site/dashboard/auth/login?auto_login=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwbGF0Zm9ybSI6ImRvcmlrIiwic2l0ZUlkIjoiNjE1YjFkM2NhZGQ2ZDI1MTYzNTgyYzI1IiwiZW1haWwiOiJhcm5hYi5kb3Jpa0BnbWFpbC5jb20iLCJpYXQiOjE2OTM3MjMzODMsImV4cCI6MTY5MzcyMzY4M30.9QesEy1-TX4H4yLqPNGNNQBJVjRFdAv4g85hgzPhIsU";
+
     const sessionKey = "user";
 
     cy.session(
@@ -147,52 +148,33 @@ function addParentItems(itemsCount) {
 }
 
 function specifyDesignPage() {
-    cy.visit(siteUrl + '/design');
-    cy.wait(40000);
+    cy.visit(siteUrl + '/dashboard/design');
+    cy.wait(20000);
 
     cy.get('.gQafrc').eq(0).click();
     cy.get('span').contains('Recipes Book Template').click();
     cy.get('button.ant-btn-link').click();
     cy.wait(5000);
 
+
+
+
+
+
+
     cy.get("iframe#dorik-builder-iframe")
         .its("0.contentDocument.body")
-        // .find('section.dorik-section')
-        // .eq(0)
-        .trigger("mouseover")
-        .then(($div) => {
-            const html = $div.html();
-            cy.log(html);
+        .find('section.dorik-section')
+        .eq(0)
+        .trigger('mouseover')
+        .invoke('mouseover')
+        .then(() => {
+            cy.get('button.wNzso').eq(0).click();
         });
-    // .within(() => {
-    //     cy.get('button.wNzso').eq(0).click();
-    // })
 
-    // cy.wait(100);
-    // cy.get("li").contains("Custom Section").click();
-    // cy.wait(100);
-    // cy.get("div.ffrtKa").click();
 
-    // cy.get("iframe#dorik-builder-iframe")
-    //     .its("0.contentDocument.body")
-    //     .find("section.dorik-section")
-    //     .eq(0)
-    //     .trigger('mouseover')
-    //     .then(($div) => {
-    //         const html = $div.html();
-    //         cy.log(html);
-    //     });
-    // .within(() => {
-    //     cy.get("button")
-    //         .contains("Add New Section")
-    //         .click();
-    // });
 
-    // cy.get("iframe#dorik-builder-iframe").then(($iframe) => {
-    //     const $body = $iframe.contents().find("body");
-    //     cy.wrap($body).find('button:contains("+ Add New Section")').click();
 
-    // });
 
     cy.wait(20000);
 
@@ -204,19 +186,68 @@ function specifyDesignPage() {
 
 function checkInCMSViewer() {
 
+    var responseObject = null;
 
+    cy.intercept('POST', 'https://multisinglee2e.dcms.site/api/cms/topics/by-slug/Recipes-Book/items', (req) => {
+    }).as('interceptedRequest');
+
+    cy.visit('https://multisinglee2e.dcms.site/Recipes-Book/Recipes-Book-2?revalidate=true');
+
+    cy.wait('@interceptedRequest', { timeout: 10000 }).then((interception) => {
+
+        const responseBody = interception.response.body;
+
+        var linkSlugs = [];
+
+        cy.get('li').each(($li) => {
+            cy.wrap($li).find('a').each(($a) => {
+                const slug = $a.attr('href');
+                var parts = slug.split("/");
+                var firstPart = parts[1];
+                firstPart = firstPart.trim();
+                linkSlugs.push(firstPart);
+            });
+        });
+
+        cy.log(linkSlugs);
+
+        var _topicSlugs = [];
+
+        for (var i = 0; i < 3; i++) {
+            _topicSlugs.push(responseBody.data[0].Multi_Recipes[i]._topicSlug);
+        }
+
+        var isCorrect = true;
+
+        for (var i = 0; i < 3; i++) {
+            for (var j = 0; j < 3; j++) {
+                if (linkSlugs[i] != _topicSlugs[j]) {
+                    throw new Error('Slug and URL Did not match!!');
+                    isCorrect = false;
+                }
+            }
+        }
+
+        cy.log('----------------------------------------------------------------');
+        if (isCorrect) {
+            cy.log('--------- All Tests Passed!-------------------------------------');
+        } else {
+            cy.log('--------- Tests Failed!-------------------------------------');
+        };
+        cy.log('----------------------------------------------------------------');
+    });
 }
 
 
 function RunOperation(dashUrl) {
     cy.visit(dashUrl);
 
-    ////////// Will be Uncommented ///////////////
+    ////////// Will be Uncommented before using in a blank site ///////////////
     // createParentCollection();
     // createChildCollection();
     // addMultiReferenceFieldToParent();
     // addParentItems(3);
-    ////////// Will be Uncommented ///////////////
+    ////////// Will be Uncommented before using in a blank site ///////////////
 
 
     ///////// Not completed due to cypress load issues ///////////////
