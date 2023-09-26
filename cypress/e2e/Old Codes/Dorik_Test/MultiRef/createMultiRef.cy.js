@@ -1,7 +1,6 @@
 function createOrRestoreSession() {
     const url =
-        "http://multisinglee2e.dcms.site/dashboard/auth/login?auto_login=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwbGF0Zm9ybSI6ImRvcmlrIiwic2l0ZUlkIjoiNjE1YjFkM2NhZGQ2ZDI1MTYzNTgyYzI1IiwiZW1haWwiOiJhcm5hYi5kb3Jpa0BnbWFpbC5jb20iLCJpYXQiOjE2OTM3MjMzODMsImV4cCI6MTY5MzcyMzY4M30.9QesEy1-TX4H4yLqPNGNNQBJVjRFdAv4g85hgzPhIsU";
-
+        "http://multisinglee2e.dorikio.com/dashboard/auth/login?auto_login=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwbGF0Zm9ybSI6ImRvcmlrIiwic2l0ZUlkIjoiNjE1YjFkM2NhZGQ2ZDI1MTYzNTgyYzI1IiwiZW1haWwiOiJhcm5hYi5kb3Jpa0BnbWFpbC5jb20iLCJpYXQiOjE2OTM3NDI4NzksImV4cCI6MTY5Mzc0MzE3OX0.wEY0iqsX3XoI4Bctv8zua-TapeIQHB3exyMPDT6z014";
     const sessionKey = "user";
 
     cy.session(
@@ -33,7 +32,7 @@ const CollectionNames = {
     }
 }
 
-const siteUrl = 'http://multisinglee2e.dcms.site';
+const siteUrl = 'http://multisinglee2e.dorikio.com/';
 
 function createParentCollection() {
     cy.get('span.ant-menu-title-content')
@@ -119,11 +118,15 @@ function addParentItems(itemsCount) {
                 cy.get('input')
                     .first()
                     .type(CollectionNames.ParentCollection.Name + ' ' + index);
+                cy.wait(2000);
 
                 cy.get('input')
                     .eq(3)
                     .click();
+                cy.wait(2000);
+
             });
+
 
 
         cy.get('.rc-virtual-list-holder-inner').within(() => {
