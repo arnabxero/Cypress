@@ -6,6 +6,10 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
-    video: false
+    video: false,
+    env: {
+      email: "cegiy54303@anawalls.com",
+      password: "cegiy54303@anawalls.comA",
+    },
   },
 });

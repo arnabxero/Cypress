@@ -32,8 +32,8 @@ Cypress.Commands.add('loginAndAPIMock', () => {
 
     cy.session("login", () => {
         cy.visit("http://localhost:3000/login");
-        cy.get('input[name="email"]').type("cegiy54303@anawalls.com");
-        cy.get('input[name="password"]').type("cegiy54303@anawalls.comA", {
+        cy.get('input[name="email"]').type(`${Cypress.env("email")}`);
+        cy.get('input[name="password"]').type(`${Cypress.env("password")}`, {
             sensitive: true,
         });
         cy.wait(2000);
