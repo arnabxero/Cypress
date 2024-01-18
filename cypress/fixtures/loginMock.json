@@ -1,0 +1,19 @@
+{
+    "data": {
+        "login": {
+            "token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1N2ZmNDY1MzExZmE3MDAxZWE5MGYyNyIsInBsYXRmb3JtIjoiZG9yaWsiLCJzaXRlSWQiOiI2MTIzZWU1MzA4ZjE3ODgyYzVkZDExNDMiLCJzdGF0dXMiOiJhY3RpdmUiLCJyb2xlIjoic3VwZXJfdXNlciIsInBsYW4iOiJBR0VOQ1lfMjUiLCJpYXQiOjE3MDU0NzU1MTcsImV4cCI6MTcwNTQ3NTgxN30.kVytgZ4OSwnWEV7UjGyEY_Dfm7nd75KIkLALk1t3uyi_AIpbByM4bs1kswZeVnrsAycSjZNlp8kyXRHJiBTQs9fqsHyPfmtBhmN7ZmH_WoAMNEekWA4rSMHOc8zVrNh4eek3U6wK0rkSD9dQqeNF0jRCnzUTsbqfEvPAXwbRvF8M2X-j3a1agU9cCUQGUjaQ1O_En-e1llvq9Yy-qJhyRDo4-_hOoedtxxCP_l6bhWgobeZBaphW0atxkEqim7qV3i-KObob9oNDziuODvXwCiUsYhRghVHY8AOmK7eDf-3caG4BKAzDiNpXD4ckQyGEcVA-G8XSLNTwPG49LyHIxVD4ChxmFQs_n0MxIdfmjVsN5iZbrZNb-lNFYpiJOx-C7ENCZ3z_2lEn30MCwgLUASqLnQvlFJS27vAq2zSf9FGHS2kQstIfHuvqTwmstLT-xe8R81sYM9Vm8-Bcy7-WYZdS-9g3Zc0UOrVHigVm8g3S2hhcZ6jVz20PkXTVzsUQHFwPCmu_LecSTXGZioCD4enjXLn_T4ZFQDq8AA7RmcNu-20OmFRTRJy_YiAy1oYtKF-tEA_1cEV1kYp3KBQKznZ1IvrvjULXAAVUGrlzoM71ZvuLz5hMsVJ2dJ3A9YgQPPQcsYnqYtvCbZVhRBZvaTORetx8UeR7vqPyU8svHo4",
+            "success": true,
+            "message": "Logged in successfully!",
+            "expiresAt": 1705475817,
+            "user": {
+                "id": "657ff465311fa7001ea90f27",
+                "role": "super_user",
+                "name": null,
+                "email": "cegiy54303@anawalls.com",
+                "avatar": null,
+                "createdAt": "2023-12-18T07:27:33.000Z",
+                "meta": null
+            }
+        }
+    }
+}

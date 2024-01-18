@@ -1,0 +1,8 @@
+{
+    "data": {
+        "page": {
+            "id": "65a381e18bf0b5001ec555fc",
+            "data": "{\"content\":[{\"name\":\"Section\",\"content\":[{\"name\":\"Container\",\"holder\":\"root\",\"type\":\"container\",\"content\":[{\"name\":\"Container\",\"holder\":\"container\",\"type\":\"container\",\"content\":[{\"name\":\"Title\",\"titleType\":\"h1\",\"type\":\"heading\",\"_elType\":\"ELEMENT\",\"component_path\":\"title\",\"content\":\"<p>Original Page Content</p>\\n\",\"settings\":{\"dynamicText\":{\"_enabled\":false}},\"dynamicText\":{\"items\":[{\"id\":\"hfgvo35u\",\"content\":\"Lorem ipsum\"},{\"id\":\"hfgvo35i\",\"content\":\"dolor sit amet\"},{\"id\":\"hfgvo35j\",\"content\":\"consectetur adipiscing\"}],\"options\":{\"typeSpeed\":50,\"loop\":true,\"backSpeed\":40,\"showCursor\":true,\"cursorChar\":true}},\"id\":\"v01cdf4k\"}],\"id\":\"0uy50ev3\",\"_elType\":\"CONTAINER\",\"component_path\":\"container\",\"style\":{\"display\":\"flex\",\"flexDirection\":\"column\",\"flexWrap\":\"wrap\",\"padding\":[[\"top\",\"10px\"],[\"bottom\",\"10px\"]],\"flexBasis\":\"100%\",\"alignItems\":\"stretch\"}}],\"id\":\"apj9xwxv\",\"_elType\":\"CONTAINER\",\"component_path\":\"container\",\"style\":{\"display\":\"flex\",\"flexDirection\":\"row\",\"flexWrap\":\"wrap\",\"padding\":[[\"top\",\"10px\"],[\"left\",\"10px\"],[\"right\",\"10px\"],[\"bottom\",\"10px\"]],\"flexBasis\":\"100%\",\"justifyContent\":\"center\"}}],\"id\":\"kuevrm74\",\"type\":\"section\",\"_elType\":\"SECTION\",\"component_path\":\"section\",\"pseudoClass\":{\"before\":{\"style\":{\"__gradientType\":\"simple\"}}}}]}"
+        }
+    }
+}

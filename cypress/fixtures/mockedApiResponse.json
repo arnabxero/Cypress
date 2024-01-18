@@ -1,0 +1,19 @@
+{
+    "data": {
+        "login": {
+            "token": "your-token-here",
+            "success": true,
+            "message": "Logged in successfully!",
+            "expiresAt": 1704963300,
+            "user": {
+                "id": "64e6fcf5b8f9d40029a646a1",
+                "role": "super_user",
+                "name": null,
+                "email": "MockResponseEmail@gmail.com",
+                "avatar": null,
+                "createdAt": "2023-08-24T06:47:17.000Z",
+                "meta": null
+            }
+        }
+    }
+}
